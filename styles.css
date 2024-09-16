@@ -1,0 +1,64 @@
+body{
+background: black;
+color: red;
+border-bottom: 100px;
+
+}
+
+header{
+background: blue;
+color: white;
+border-bottom: solid 2px white;
+padding: 20px;
+font-size: 30px;
+
+}
+
+
+section {
+
+background: rgb(red, green, blue);
+padding-bottom: 80px;
+padding-top: 1px;
+display: flex;
+justify-content: center;
+
+}
+
+.chamada-texto{
+margin-right: 80px;
+background: white;
+
+}
+
+.categoria-vídeos img{
+height: 250px;
+opacity: 0.5;
+
+}
+
+.categoria-vídeos{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+ .categoria-vídeos img:hover {
+    opacity: 1.0;
+border: solid 5px white;
+
+ }
+
+
+
+
+
+
+
+
